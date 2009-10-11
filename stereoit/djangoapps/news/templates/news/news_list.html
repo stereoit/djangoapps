@@ -1,0 +1,7 @@
+<h1>Quick News</h1>
+
+<ul>
+{% for news in news_list %}
+<li><a href="{{ news.get_absolute_url }}">{{ news.title }}</a></li>
+{% endfor %}
+</ul>
