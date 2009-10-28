@@ -13,7 +13,7 @@ news_dict = {
 urlpatterns = patterns('stereoit.djangoapps.news.views',
 #     (r'show/1/$', 'news_test'), #show news detail
 	(r'^$', direct_to_template, {'template': 'news/index.html'}),
-	(r'^show/$', object_list, dict(
+	(r'^archive/$', object_list, dict(
 				news_dict, 
 				paginate_by=20,
 				template_object_name='news',

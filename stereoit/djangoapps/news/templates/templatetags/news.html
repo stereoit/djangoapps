@@ -1,0 +1,16 @@
+{% if css_class %}
+<ul class="{{ css_class }}">
+{% else %}
+<ul>
+{% endif %}
+    {% for item in news %}
+    <li class="{{ css_class}}">
+	  <a href="{{ item.get_absolute_url }}">{{ item.title }}</a><br/>
+	  <span class="when">On {{ item.date_add }}</span><br/>
+	  <span class="by">By {{ item.author }}</span><br/>
+	  <span class="title">{{ item.summary }}</span>
+	<hr/>
+	</li>
+    {% endfor %}
+</ul>
+
