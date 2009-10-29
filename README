@@ -1,0 +1,3 @@
+stereoit.djangoapps is a collection of small applications that can be reused in web development.
+
+For the moment we have 'news' application allowing to create those quick news section on the page. It includes some models, templates and associated tempatetags.
