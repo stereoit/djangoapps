@@ -3,7 +3,33 @@
 	"pk": 1,
 	"model": "news.news", 
 	"fields": {
-		"date_add": "2009-10-11 21:26:40", 
+		"date_add": "2009-10-07 11:20:00", 
+		"author": "Robert Smol", 
+		"title": "Okenniservis.eu launched", 
+		"summary": "Your quality window provider. One of our first delivered wesites using modern web technologies. Project developed within two weeks.",
+		"content": "", 
+		"slug": "okenniserviseu-delivered",
+		"published": "True"
+	}
+  },
+  {
+	"pk": 2,
+	"model": "news.news", 
+	"fields": {
+		"date_add": "2009-10-10 14:00:00", 
+		"author": "Robert Smol", 
+		"title": "imarisha.com started", 
+		"summary": "Imarisha is a new dynamic company specializin in VOIP. They also provide quality CISCO based course. Head for the professionals, head for <a href='http://www.imarisha.com'>Imarisha</a>",
+		"content": "", 
+		"slug": "imarishacom-delivered",
+		"published": "True"
+	}
+  },
+  {
+	"pk": 3,
+	"model": "news.news", 
+	"fields": {
+		"date_add": "2009-10-11 08:00:00", 
 		"author": "Robert Smol", 
 		"title": "Callout.cz delivered", 
 		"summary": "Our latest project is about bringing technology to people. With Callout.cz you can call anywhere in the world for super cool prices right from your mobile.", 
@@ -13,7 +39,7 @@
 	}
   },
   {
-	"pk": 2,
+	"pk": 4,
 	"model": "news.news", 
 	"fields": {
 		"date_add": "2009-09-11 21:26:40", 
