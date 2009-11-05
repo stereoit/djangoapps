@@ -42,7 +42,7 @@
 	"pk": 4,
 	"model": "news.news", 
 	"fields": {
-		"date_add": "2009-09-11 21:26:40", 
+		"date_add": "2009-11-11 08:00:00", 
 		"author": "Robert Smol", 
 		"title": "StereoIT s.r.o started", 
 		"summary": "Our vision is very simple: Great tools are always needed when one strives for great products. Lets be Us your tools/partner. We have deep expertize in everythin related to OpenSource.",
