@@ -1,0 +1,8 @@
+{% load tagcloud_tags %}
+<span>
+<p>
+{% for tag in tags %}
+	{% render_tag tag.name %}
+{% endfor %}
+<p>
+</span>

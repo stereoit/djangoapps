@@ -1,0 +1,42 @@
+[
+{"pk": 1, 
+	"model": "tagcloud.tag", 
+	"fields": {
+		"description": "As Linus Torvalds call it, this is Stupid Content Tracker. ", 
+		"created": "07:35:12", 
+		"intensity": 20, 
+		"active": true, 
+		"slug": "git", 
+		"name": "GIT"}
+}, 
+{"pk": 2, 
+	"model": "tagcloud.tag", 
+	"fields": {
+		"description": "Voice Over IP, technology designated to carry telephony over data networks.", 
+		"created": "07:36:03", 
+		"intensity": 50, 
+		"active": true, 
+		"slug": "voip", 
+		"name": "VOIP"}
+},
+{"pk": 3, 
+	"model": "tagcloud.tag", 
+	"fields": {
+		"description": "Javascript serialized format used for excchanging data",
+		"created": "07:26:03", 
+		"intensity": 40, 
+		"active": true, 
+		"slug": "json", 
+		"name": "JSON"}
+},
+{"pk": 1, 
+	"model": "tagcloud.tagcloud", 
+	"fields": {
+		"active": true, 
+		"description": "This cloud contains tags that are showed to geeks, i.e low level technology tags.", 
+		"tags": [1, 2], 
+		"name": "geek", 
+		"slug": "geek"}
+}
+]
+
