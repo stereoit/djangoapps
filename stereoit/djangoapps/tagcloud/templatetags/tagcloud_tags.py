@@ -28,6 +28,13 @@ def render_tag(name):
 	return { 'tag': tag }
 	
 
+@register.inclusion_tag('templatetags/tag_detail.html')
+def render_tag_detail(name):
+	try:
+		tag = Tag.objects.filter(name=name)[0]
+	except Tag.DoesNotExist:
+		pass # die silently
+	return { 'tag': tag}
 
 #def show_css_news(items=5, css_class=''):
 #	context = show_news(items)
