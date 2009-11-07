@@ -2,12 +2,12 @@
 {"pk": 1, 
 	"model": "tagcloud.tag", 
 	"fields": {
-		"description": "As Linus Torvalds call it, this is Stupid Content Tracker. ", 
+		"description": "Git is a free distributed revision control, or software source code management project with an emphasis on being fast. Git was initially designed and developed by Linus Torvalds for Linux kernel development. Every Git working directory is a full-fledged repository with complete history and full revision tracking capabilities, not dependent on network access or a central server.",
 		"created": "07:35:12", 
 		"intensity": 20, 
 		"active": true, 
 		"slug": "git", 
-		"name": "GIT"}
+		"name": "Git"}
 }, 
 {"pk": 2, 
 	"model": "tagcloud.tag", 
@@ -29,12 +29,82 @@
 		"slug": "json", 
 		"name": "JSON"}
 },
+{"pk": 4, 
+	"model": "tagcloud.tag", 
+	"fields": {
+		"description": "The word geek is a slang term, noting individuals as \"a peculiar or otherwise odd person, especially one who is perceived to be overly obsessed with one or more things including those of intellectuality, electronics, etc.\"[1] Formerly, the term referred to a carnival performer often billed as a wild man whose act usually includes biting the head off a live chicken, bat, snake or bugs. The 1976 edition of the American Heritage Dictionary included only the definition regarding geek shows.",
+		"created": "07:36:03", 
+		"intensity": 50, 
+		"active": true, 
+		"slug": "geek", 
+		"name": "Geek"}
+},
+{"pk": 5, 
+	"model": "tagcloud.tag", 
+	"fields": {
+		"description": "The Apache HTTP Server, commonly referred to as Apache (pronounced /əˈpætʃiː/), is a web server notable for playing a key role in the initial growth of the World Wide Web. In 2009 it became the first web server to surpass the 100 million web site milestone.[2] Apache was the first viable alternative to the Netscape Communications Corporation web server (currently known as Sun Java System Web Server), and has since evolved to rival other Unix-based web servers in terms of functionality and performance. The majority of web servers using Apache run the Linux operating system.",
+		"created": "07:36:03", 
+		"intensity": 50, 
+		"active": true, 
+		"slug": "apache", 
+		"name": "Apache"}
+},
+{"pk": 6, 
+	"model": "tagcloud.tag", 
+	"fields": {
+		"description": "Asterisk is a software implementation of a telephone private branch exchange (PBX) originally created in 1999 by Mark Spencer of Digium. Like any PBX, it allows attached telephones to make calls to one another, and to connect to other telephone services including the public switched telephone network (PSTN) and Voice over Internet Protocol (VoIP) services. Its name comes from the asterisk symbol",
+		"created": "07:36:03", 
+		"intensity": 50, 
+		"active": true, 
+		"slug": "asterisk", 
+		"name": "Asterisk"}
+},
+{"pk": 7, 
+	"model": "tagcloud.tag", 
+	"fields": {
+		"description": "A content management system (CMS) is a collection of procedures used to manage work flow in a collaborative environment. These procedures can be manual or computer based. The procedure are designed to:    * Allow for large numbers of people to contribute to and share stored data. In a CMS data can be defined as almost anything - documents, movies, pictures, phone number, scientific data, etc. CMSs are frequently used for storing, controlling, revising, and publishing documentation. Content that is controlled is industry-specific. (Entertainment content differs from the design of a fighter jet). There are various terms for systems (related processes) that do this. Examples include: Web Content Management, Digital Asset Management, Digital Records Management, Electronic Content Management (and others). Synchronization of intermediate steps, and collation into a final product are common goals of each.",
+		"created": "07:36:03", 
+		"intensity": 50, 
+		"active": true, 
+		"slug": "CMS", 
+		"name": "cms"}
+},
+{"pk": 8, 
+	"model": "tagcloud.tag", 
+	"fields": {
+		"description": "Java Platform, Enterprise Edition or Java EE is a widely used platform for server programming in the Java programming language. The Java platform (Enterprise Edition) differs from the Java Standard Edition Platform (Java SE) in that it adds libraries which provide functionality to deploy fault-tolerant, distributed, multi-tier Java software, based largely on modular components running on an application server.",
+		"created": "07:36:03", 
+		"intensity": 60, 
+		"active": true, 
+		"slug": "j2ee", 
+		"name": "J2EE"}
+},
+{"pk": 9, 
+	"model": "tagcloud.tag", 
+	"fields": {
+		"description": "Google Inc. is an American public corporation, earning revenue from advertising related to its Internet search, e-mail, online mapping, office productivity, social networking, and video sharing services as well as selling advertising-free versions of the same technologies. Google has also developed an open source web browser and a mobile operating system. The Google headquarters, the Googleplex, is located in Mountain View, California. As of March 31, 2009 (2009 -03-31)[update], the company has 19,786 full-time employees. The company is running thousands of servers worldwide, which process millions of search requests each day and about 1 petabyte of user-generated data every hour.",
+		"created": "07:36:03", 
+		"intensity": 30, 
+		"active": true, 
+		"slug": "Google", 
+		"name": "google"}
+},
+{"pk": 10, 
+	"model": "tagcloud.tag", 
+	"fields": {
+		"description": "GNOME (pronounced /ɡəˈnoʊm/)[1] is a desktop environment—a graphical user interface which runs on top of a computer operating system—composed entirely of free and open source software. It is an international project that includes creating software development frameworks, selecting application software for the desktop, and working on the programs which manage application launching, file handling, and window and task management. GNOME is part of the GNU Project and can be used with various Unix-like operating systems, most notably those built on top of the Linux kernel and the GNU userland, and as part of Java Desktop System in Solaris.",
+		"created": "07:36:03", 
+		"intensity": 50, 
+		"active": true, 
+		"slug": "gnome", 
+		"name": "GNOME"}
+},
 {"pk": 1, 
 	"model": "tagcloud.tagcloud", 
 	"fields": {
 		"active": true, 
 		"description": "This cloud contains tags that are showed to geeks, i.e low level technology tags.", 
-		"tags": [1, 2], 
+		"tags": [1, 2, 3, 4, 5, 6, 7, 8 ,9 , 10], 
 		"name": "geek", 
 		"slug": "geek"}
 }
