@@ -5,7 +5,6 @@ this include tags:
 '''
 
 from django import template
-from stereoit.djangoapps.tagcloud.models import Tag, TagCloud
 
 register = template.Library()
 

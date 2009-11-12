@@ -18,5 +18,5 @@ urlpatterns = patterns('stereoit.djangoapps.news.views',
 				paginate_by=20,
 				template_object_name='news',
 			)),
-    url(r'^(?P<slug>[-\w]+)/$', 'detail', name="news_detail"), #show news detail
+    url(r'^(?P<slug>[-\w]+)$', 'detail', name="news_detail"), #show news detail
 )
